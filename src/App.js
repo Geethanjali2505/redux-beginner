@@ -2,15 +2,14 @@ import logo from './logo.svg';
 import './App.css';
 import Profile from './components/Profile';
 import Login from './components/Login';
-
+import ChangeColor from './components/ChangeColor';
 
 function App() {
   return (
     <div className="App">
-     Welcome to Redux app
-     <Profile/>
-     <Login/>
-    
+    <Profile/>
+    <Login/>
+    <ChangeColor/>
     </div>
   );
 }
